@@ -1,1 +1,43 @@
+#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
+; #Warn  ; Enable warnings to assist with detecting common errors.
+SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
+SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
+
+;Notes: #==win !==Alt  ^==Ctr  +==shift
+
+;====================== 系统默认快捷键 ============================================
+
+;温馨提示： 以下几个系统默认的 Win 快捷键：
+;Win + E：打开资源管理器；
+;Win + D：显示桌面；
+;Win + F：打开查找对话框；
+;Win + R：打开运行对话框；
+;Win + L：锁定电脑；
+;Win + PauseBreak：打开系统属性对话框;
+;Win + Q: 本地文件/网页等搜索;
+;Win + U: 打开控制面板－轻松使用设置中心;
+
+;====================== 常用语 ============================================
+
+::/mail::chen09869@gmail.com
+::/no1::https://github.com/no1harm
+::/con::console.log();
+::/js::javascript:;
+
+;======================= 程序 ============================================
+
+;!#c&d::run notepad
+!#v::run, C:\Program Files\Microsoft VS Code Visual\Code.exe
+;!#c:: run, D:\SoftwareKit\_jade_new_soft\cmder_mini\Cmder.exe
+;!#g::run, D:\Program Files (x86)\Tencent\QQIntl\QQUninst.exe
+;!#n&e::run, D:\Program Files (x86)\Sublime Text 3\sublime_text.exe
+!#x::run, C:\Program Files (x86)\XMind\XMind.exe
+
+;========================= 网页 ============================================
+
+#^n::Run https://github.com/no1harm
+#^b::Run https://www.baidu.com/
+#^g::Run https://www.google.com/
+
+;-------------------------------------------------------------------------
 
